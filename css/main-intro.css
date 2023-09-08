@@ -1,0 +1,23 @@
+.introducao {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.introducao-conteudo {
+  display: grid;
+  gap: 10px;
+}
+
+.introducao-conteudo a {
+  align-self: center;
+}
+
+.introducao-conteudo a:hover {
+  background-color: var(--cor-primaria);
+  color: var(--cor-neutra);
+}
+
+.image-intro img {
+  border-radius: 5px;
+}
