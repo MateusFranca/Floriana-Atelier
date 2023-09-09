@@ -16,6 +16,7 @@ body {
 :root {
   --cor-primaria: #0074E4;
   --cor-secundaria: #34C759;
+  --cor-secundaria-opaca: #34c759a0;
   --cor-neutra: #FFFFFF;
 }
 
@@ -42,7 +43,7 @@ body {
 
 /*Estilo botão*/
 
-.botao {
+.botao, .botao-bt {
   display: inline-block;
   background-color: var(--cor-secundaria);
   color: var(--cor-neutra);
@@ -51,12 +52,27 @@ body {
   transition: background-color 0.3s ease, color 0.3s ease;
   max-width: max-content;
   cursor: pointer;
+  border: none;
 }
 
 .botao:hover {
   background-color: var(--cor-neutra);
   color: var(--cor-secundaria);
 }
+
+.botao-bt {
+  display: inline-block; /* Alterado para inline-block para que a transformação funcione corretamente */
+  margin: 0 auto;
+  transition: transform 0.3s ease; /* Adiciona uma transição suave à transformação */
+}
+
+.botao-bt:hover {
+  transform: scale(1.1); /* Aumenta o tamanho em 10% */
+  background-color: var(--cor-primaria);
+  color: var(--cor-neutra);
+  cursor: pointer; /* Adicionado cursor pointer para indicar que é clicável */
+}
+
 
 /*Container geral*/
 

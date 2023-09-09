@@ -1,0 +1,32 @@
+.contato-foms-conteudo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 50px;
+  gap: 20px;
+  background-color: var(--cor-neutra);
+  border-radius: 0px 5px 5px 0px;
+  border: 2px solid var(--cor-primaria);
+}
+
+.col-2 {
+  grid-column: 1/-1;
+}
+
+.contato-foms-conteudo label {
+  display: block;
+  color: var(--cor-primaria);
+  margin-bottom: 5px;
+}
+
+.contato-foms-conteudo input, textarea {
+  width: 100%;  
+  resize: none;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1.6px solid #000;
+}
+
+.identificacao-pag {
+  margin-bottom: -50px;
+}
+

@@ -1,0 +1,42 @@
+.sobre-item:not(.ultimo) {
+  margin-bottom: 50px;
+}
+
+.sobre-item {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.sobre-item-imagem img{
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+  background-position: top center;
+  
+}
+
+.sobre-item-conteudo{
+  position: relative;
+}
+
+.sobre-item-conteudo h1 {
+  margin-bottom:10px;
+}
+
+.sobre-item-conteudo p::before {
+  content: "";
+  width: 20px;
+  height:15px;
+  background-color: var(--cor-secundaria-opaca);
+  position: absolute;
+  top: 15px;
+  left: -5px;
+  z-index: -1;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(52, 199, 89, 0.5);
+}
+
+.texto-ao-centro {
+  align-self: center;  
+}

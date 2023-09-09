@@ -1,5 +1,8 @@
-@import "header.css";
-@import "global.css";
-@import "main-intro.css";
-@import "card.css";
-@import "footer.css";
+@import "global/header.css";
+@import "global/global.css";
+@import "home/main-intro.css";
+@import "home/card.css";
+@import "global/footer.css";
+@import "sobre/main-intro.css";
+@import "contato/contato-informacao.css";
+@import "contato/contato-fomrs.css";

@@ -1,0 +1,49 @@
+.contato-conteudo {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.contato-informacao{
+  background-color: var(--cor-primaria);
+  color: var(--cor-neutra);
+  padding: 50px;
+  border-radius: 5px 0px 0px 5px;
+}
+
+.contato-item-informacao {
+  position: relative;
+}
+
+.contato-item-informacao:not(.ultimo), h2 {
+  margin-bottom: 30px
+}
+
+.contato-item-informacao p {
+  margin-bottom: 5px;
+}
+
+.contato-img::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: -25px;
+  background-image: url(../../img/icons/email.svg);
+  background-repeat: no-repeat; /* Evita a repetição da imagem */
+  background-position: center center; /* Posiciona a imagem à esquerda do centro */
+  background-size: 20px 20px; /* Define o tamanho da imagem (ajuste conforme necessário) */
+}
+
+.email-icon::before{
+  background-image: url(../../img/icons/mdi_location.svg);
+}
+
+.tel-icon::before{
+  background-image: url(../../img/icons/telefone-icon.svg);
+}
+
+.redes-sociais{ 
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}

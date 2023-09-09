@@ -27,22 +27,22 @@
 .footer-item a {
   color: var(--cor-neutra);
   padding-left: 20px; /* Adicione espaço à esquerda da imagem para separá-la do texto */
-  background-image: url(../img/icons/email.svg);
+  background-image: url(../../img/icons/email.svg);
   background-repeat: no-repeat; /* Evita a repetição da imagem */
   background-position: left center; /* Posiciona a imagem à esquerda do centro */
   background-size: 16px 16px; /* Define o tamanho da imagem (ajuste conforme necessário) */
 }
 
 .logo-footer a{
-  background-image: url(../img/icons/info.svg);
+  background-image: url(../../img/icons/info.svg);
 }
 
 .pergunta a{
-  background-image: url(../img/icons/pergunta.svg);
+  background-image: url(../../img/icons/pergunta.svg);
 }
 
 .logo-footer a{
-  background-image: url(../img/icons/info.svg);
+  background-image: url(../../img/icons/info.svg);
 }
 
 .footer-conteudo a:hover {
