@@ -14,8 +14,12 @@
   position: relative;
 }
 
-.contato-item-informacao:not(.ultimo), h2 {
+.contato-item-informacao:not(.ultimo) {
   margin-bottom: 30px
+}
+
+.contato-informacao h2 {
+  margin-bottom: 30px 
 }
 
 .contato-item-informacao p {
@@ -46,4 +50,14 @@
   display: flex;
   justify-content: center;
   padding-top: 40px;
+}
+
+@media (max-width: 900px) {
+  .contato-informacao {
+    border-radius: 5px 5px 0px 0px;
+  }
+
+  .contato-conteudo {
+    grid-template-columns: 1fr;
+  }
 }

@@ -56,3 +56,12 @@
   padding: 15px 20px; 
   opacity: 0.8; 
 }
+
+@media (max-width: 600px) {
+  .login-conteudo {
+    grid-template-columns: 1fr;
+  }
+  .login-item-1 img {
+    margin-top: 100px;
+  }
+}

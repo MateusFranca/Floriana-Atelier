@@ -21,3 +21,13 @@
 .image-intro img {
   border-radius: 5px;
 }
+
+@media (max-width: 1000px) {
+  .introducao{
+    grid-template-columns: 1fr;
+  }
+
+  .image-intro img {
+  width: 100%;
+  }
+}

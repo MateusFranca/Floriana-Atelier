@@ -8,7 +8,7 @@
   justify-content: center;
 }
 
-.direitos   {
+.direitos {
   text-align: center;
   padding: 20px 0;
 }
@@ -17,6 +17,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
   gap: 20px;
 }
 
@@ -33,15 +34,15 @@
   background-size: 16px 16px; /* Define o tamanho da imagem (ajuste conforme necessário) */
 }
 
-.logo-footer a{
+.logo-footer a {
   background-image: url(../../img/icons/info.svg);
 }
 
-.pergunta a{
+.pergunta a {
   background-image: url(../../img/icons/pergunta.svg);
 }
 
-.logo-footer a{
+.logo-footer a {
   background-image: url(../../img/icons/info.svg);
 }
 

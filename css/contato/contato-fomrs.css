@@ -30,3 +30,14 @@
   margin-bottom: -50px;
 }
 
+@media (max-width: 900px) {
+  .contato-foms-conteudo {
+    border-radius: 0px 0px 5px 5px;
+  }
+}
+
+@media (max-width: 500px) {
+  .contato-foms-conteudo {
+    grid-template-columns: 1fr;
+  }
+}

@@ -14,38 +14,50 @@ body {
 /* Declaração de variáveis CSS de cor */
 
 :root {
-  --cor-primaria: #0074E4;
-  --cor-secundaria: #34C759;
+  --cor-primaria: #0052a0;
+  --cor-secundaria: #1e9436;
   --cor-secundaria-opaca: #34c759a0;
-  --cor-neutra: #FFFFFF;
-  --cor-fundo: #F5F8FA;
-
+  --cor-neutra: #d9d9d9;
+  --cor-fundo: #121212;
 }
 
 /* Classe para fonte grande */
 .fonte-grande {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 600; 
-  font-size: 24px; 
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
 }
 
 /* Classe para fonte de tamanho médio */
 .fonte-media {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400; 
-  font-size: 18px; 
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
 }
 
 /* Classe para fonte pequena */
 .fonte-pequena {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 400; 
-  font-size: 14px; 
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+@media (max-width: 1000px) {
+  .fonte-grande {
+    font-size: 20px;
+  }
+  .fonte-media {
+    font-size: 16px;
+  }
+  .fonte-pequena {
+    font-size: 12px;
+  }
 }
 
 /*Estilo botão*/
 
-.botao, .botao-bt {
+.botao,
+.botao-bt {
   display: inline-block;
   background-color: var(--cor-secundaria);
   color: var(--cor-neutra);
@@ -74,7 +86,6 @@ body {
   color: var(--cor-neutra);
   cursor: pointer; /* Adicionado cursor pointer para indicar que é clicável */
 }
-
 
 /*Container geral*/
 
