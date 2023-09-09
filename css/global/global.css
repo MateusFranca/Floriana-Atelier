@@ -18,6 +18,8 @@ body {
   --cor-secundaria: #34C759;
   --cor-secundaria-opaca: #34c759a0;
   --cor-neutra: #FFFFFF;
+  --cor-fundo: #F5F8FA;
+
 }
 
 /* Classe para fonte grande */

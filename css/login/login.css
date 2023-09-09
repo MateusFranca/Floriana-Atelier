@@ -1,0 +1,58 @@
+.login-bg {
+  background-color: var(--cor-fundo);
+  }
+
+.login-conteudo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-item-1 img {
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+  margin-top: -70px;
+}
+
+.login-item-2 label {
+  display: block;
+  color: var(--cor-primaria);
+  margin-bottom: 10px;
+}
+
+.login-item-2 input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1.6px solid #000;
+}
+
+.login-item-2 input:not(.ultimo) {
+  margin-bottom: 30px;
+}
+
+.botao-bt {
+  display: block;
+  margin: 30px auto;
+}
+
+.login-bt {
+  padding: 10px 20px;
+  display: block;
+  margin: 10px auto;
+  border-radius: 5px; 
+  border: none;
+  background-color: var(--cor-secundaria);
+  color: var(--cor-neutra);
+  cursor: pointer;
+  transition: width .3s ease, padding .6s ease, opacity .6s ease, transform .6s ease; 
+  transform-origin: center; /* Define o ponto de origem da transformação no centro */
+}
+
+.login-bt:hover {
+  width: 100%;
+  padding: 15px 20px; 
+  opacity: 0.8; 
+}
